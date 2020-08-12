@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:background="#002142"
+    android:backgroundTint="#002142"
+    android:orientation="vertical"
+    android:paddingLeft="20sp"
+    android:paddingTop="20sp"
+    android:paddingRight="20sp"
+    android:paddingBottom="20sp"
+    tools:context=".Sedna.Conversa">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="End Space"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:text="A cientista te explica que está próximo de encontrar a cura para salvar o planeta Terra mas precisa de uma planta que está no fundo do rio perto da cabana  dela. Você decide ajuda-la e pode pegar a planta"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEquipamento"
+            android:layout_width="wrap_content"
+            android:layout_height="132dp"
+            android:layout_weight="5"
+            android:autoText="false"
+            android:text="Entrar com equipamento pesado com pouco oxigênio no tanque"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSemEquipamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:autoText="false"
+            android:text="Entrar sem a roupa sabendo que segura a respoiração por 130seg"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

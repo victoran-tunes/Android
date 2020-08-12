@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002142"
+    android:backgroundTint="#002142"
+    android:orientation="vertical"
+    android:paddingLeft="20sp"
+    android:paddingTop="20sp"
+    android:paddingRight="20sp"
+    android:paddingBottom="20sp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="End Space"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/planetas" />
+
+    <TextView
+        android:id="@+id/textViewDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:gravity="center"
+        android:text="A Terra se encontra em um estado pós-apocalíptico onde a raça humana beirou a extinção devido a um vírus mortal chamado R-Vírus, que ataca diretamente o sistema respiratório. Juntamente com o R-Vírus, a poluição no planeta Terra tomou proporções irreversíveis, tornando o planeta inabitável. Todos os continentes estavam fazendo pesquisas e experimentos para tornar a humanidade em uma raça extragaláctica em busca de outro planeta habitável. Você foi designado para uma missão de reconhecimento. Escolha um planeta"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btneris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoText="false"
+            android:text="Eris"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSedna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoText="false"
+            android:text="Sedna"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

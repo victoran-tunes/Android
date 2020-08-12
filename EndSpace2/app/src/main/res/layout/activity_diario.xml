@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:background="#002142"
+    android:backgroundTint="#002142"
+    android:orientation="vertical"
+    android:paddingLeft="20sp"
+    android:paddingTop="20sp"
+    android:paddingRight="20sp"
+    android:paddingBottom="20sp"
+    tools:context=".Diario">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="End Space"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:text="Holograma:'Meu nome é Martha.. tivemos que fazer um pouso forçado neste planeta devido a uma falha no motor da espaçonave. Estamos sem comunicação com o QG, estamos presos neste planeta a uma semana. Alguns tripulantes foram fazer o reconhecimento da área e não voltaram.. Encontramos algo parecido com um osso de metal e dias depois descobrimos que havia máquinas conscientes e sofremos um ataque por mais que atiravamos nelas, não sofriam nenhum dano. Eu sou a única sobrevivente e se você esta assistindo isso, fuja deste planeta o quant...' Computador:'fim da transmissão.'"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnFugir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:autoText="false"
+            android:text="Ir para a nave"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

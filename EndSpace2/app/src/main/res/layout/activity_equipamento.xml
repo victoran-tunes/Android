@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:background="#020407"
+    android:backgroundTint="#020407"
+    android:orientation="vertical"
+    android:paddingLeft="20sp"
+    android:paddingTop="20sp"
+    android:paddingRight="20sp"
+    android:paddingBottom="20sp"
+    tools:context=".Sedna.Equipamento">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="GAME OVER"
+        android:textAlignment="center"
+        android:textColor="#6E1414"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:text="Você entra com a roupa pesada até o fundo do rio e encontra a planta que a cientista estava procurando e você pega ela mas não consegue voltar a superfície pois a roupa é muito pesada e morre sem oxigênio no fundo do rio."
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnReiniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:autoText="false"
+            android:text="Reiniciar"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
